@@ -5,9 +5,9 @@ const timeStampDoEvento = dataDoEvento.gettime();
 
 const contaAsHoras = setInterval(function() {
     const agora = new Date ();
-    const timestampAtual = agora.getTime();
+    const timeStampAtual = agora.getTime();
 
-    const distanciaAteOEvento = timeStampDoEvento - timestampAtual;
+    const distanciaAteOEvento = timeStampDoEvento - timeStampAtual;
 
     const diaEmMs = 1000 * 60 * 60 * 24;
     const horaEmMs = 1000 * 60 * 60;
