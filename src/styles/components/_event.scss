@@ -18,6 +18,14 @@
     &--babilônia {
         background-image:linear-gradient(variables.$blue1, variables.$pink);
     }
+
+    &--movie {
+        background-image:linear-gradient(variables.$red, variables.$green);
+    }
+
+    &--movie2 {
+        background-image:linear-gradient(variables.$blue3, variables.$orange);
+    }
     
     &--image-left {
         .container {

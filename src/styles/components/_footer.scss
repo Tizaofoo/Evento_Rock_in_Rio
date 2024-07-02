@@ -1,0 +1,37 @@
+@use "variables";
+
+.footer{
+    background-color: variables.$secondaryTextColor;
+
+
+    .container{
+        display: flex;
+        //justify-content: space-between; /*titulo na esquerda e menu na direita*/ 
+        align-items: center; /*alinhamento vertical*/
+        padding: 16px 0 16px;
+        justify-content: center;
+
+    }
+
+    &__text{
+        font-weight: 800;
+        margin-right: 8px;
+    }
+
+    &__icon{
+        list-style: none;
+
+        img{
+            width: 100%;
+            max-width: 40px;
+        }
+    }
+
+    @media (max-width: 640px){
+        
+        .container{
+            display: block;
+            text-align: center;
+        }
+    }
+}
